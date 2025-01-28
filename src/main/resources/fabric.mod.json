@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "quickwaypoints",
+  "version": "${version}",
+  "name": "QuickWaypoints",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/voxxin/QuickWaypoints"
+  },
+  "license": "AGPL-3.0",
+  "icon": "assets/quickwaypoints/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "cat.ella.quickwaypoints.QuickWaypoints"
+    ]
+  },
+  "mixins": [
+    "quickwaypoints.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
